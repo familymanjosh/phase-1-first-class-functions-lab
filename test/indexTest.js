@@ -53,7 +53,6 @@ describe('index.js', function () {
     it('is a function', function () {
       expect(fareDoubler).to.be.a('function');
     });
-
     it('doubles fares', function () {
       expect(fareDoubler(10)).to.eql(20);
     });
